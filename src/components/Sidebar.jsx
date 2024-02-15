@@ -56,7 +56,11 @@ const Sidebar = ({ children }) => {
                 <ul className="flex flex-col gap-5">
                   {sidebarLink.map((value, index) => {
                     return (
-                      <li key={index} className="text-center">
+                      <li
+                        key={index}
+                        onClick={closeSidebar}
+                        className="text-center"
+                      >
                         <Link
                           aria-label={value.title}
                           className="text-mirage font-Inter font-medium text-xl opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"

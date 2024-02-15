@@ -31,15 +31,17 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-bg": "url('/assets/images/background/hero-bg.png')",
+        "lines-bg": "url('/assets/images/background/lines-bg.png')",
       },
       colors: {
         mirage: "#111822",
-        "tia-maria": "#cd520f",
         shark: "#19191b",
-        "hawaiian-tan": "#954115",
         bombay: "#b8babd",
         zircon: "#f9fbff",
         silver: "#c6c6c6",
+        gray: "#6e737a",
+        "tia-maria": "#cd520f",
+        "hawaiian-tan": "#954115",
         "red-damask": "#de6f38",
       },
       boxShadow: {
