@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { Menu } from "./Icon";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import Image from "next/image";

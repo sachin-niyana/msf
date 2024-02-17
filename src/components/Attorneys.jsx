@@ -5,7 +5,7 @@ const Attorneys = () => {
   return (
     <div className="bg-zircon">
       <div
-        className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-28 py-16"
+        className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-24 py-12"
         id="Attorneys"
       >
         <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-center">
@@ -14,7 +14,7 @@ const Attorneys = () => {
             <div className="w-[14px] h-[14px] rounded-full bg-tia-maria"></div>
           </div>
           <div className="flex flex-col gap-[22px] mb-1.5">
-            <h2 className="font-Inter font-medium leading-[120%] md:max-w-[650px] max-w-[430px] text-mirage xl:text-7xxl lg:text-7xl md:text-6xl text-5xl">
+            <h2 className="font-Inter font-medium leading-[120%] md:max-w-[650px] max-w-[430px] text-mirage xl:text-7xxl lg:text-7xl md:text-6xl text-4xl">
               CALIFORNIA SEXUAL ABUSE{" "}
               <span className="text-tia-maria">ATTORNEYS</span>
             </h2>

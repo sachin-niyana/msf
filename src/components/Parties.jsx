@@ -4,7 +4,7 @@ import ButtonWhite from "./common/ButtonWhite";
 const Parties = () => {
   return (
     <div className="bg-zircon">
-      <div className="container mx-auto px-3 max-w-[1152px] relative">
+      <div className="container mx-auto px-3 max-w-[1152px] relative lg:pt-32 lg:pb-24 md:py-20 sm:py-16 py-12">
         <div className="absolute flex justify-center items-center flex-col gap-3.5">
           <div className="bg-mirage sm:h-[150px] h-[130px] rounded-full mt-12 w-[2px]"></div>
           <div className="w-[14px] h-[14px] rounded-full bg-mirage"></div>
@@ -19,14 +19,29 @@ const Parties = () => {
           responsible parties accountable for their part in your case. This
           includes:
         </p>
-        <div className="flex bg-mirage justify-center items-end flex-wrap md:mt-9 mt-8">
-          <div className="lg:w-7/12 md:w-6/12 w-full py-10 lg:ps-24 md:ps-16 ps-8 px3">
-            <p className="text-bombay font-Inter font-normal lg:text-2xl md:text-xl text-lg">
+        <div className="flex bg-mirage justify-center items-end flex-wrap md:mt-9 mt-8 lg:mb-2">
+          <div className="lg:w-8/12 md:w-6/12 w-full md:pt-8 md:pb-20 pb-10 md:pe-12 lg:ps-24 md:ps-16 sm:ps-8 px-5">
+            <p className="text-bombay max-w-[590px] font-Inter font-normal lg:mt-9 md:mt-7 mt-5 lg:text-2xl md:text-xl text-lg">
               The abuser who was directly responsible{" "}
             </p>
-            <div className="max-w-[470px] w-full bg-light-gray h-[2px] mt-7"></div>
+            <div className="max-w-[470px] w-full bg-light-gray h-[2px] md:mt-7 mt-5"></div>
+            <p className="text-bombay max-w-[590px] font-Inter font-normal lg:mt-9 md:mt-7 mt-5 lg:text-2xl md:text-xl text-lg">
+              Any coworkers, staff members, or others who knew of the abuse but
+              did not come forward to report it{" "}
+            </p>
+            <div className="max-w-[470px] w-full bg-light-gray h-[2px] md:mt-7 mt-5"></div>
+            <p className="text-bombay max-w-[590px] font-Inter font-normal lg:mt-9 md:mt-7 mt-5 lg:text-2xl md:text-xl text-lg">
+              Any larger organizations or institutions who failed to take action
+              against the abuse{" "}
+            </p>
+            <div className="max-w-[470px] w-full bg-light-gray h-[2px] md:mt-7 mt-5"></div>
+            <p className="text-bombay max-w-[590px] font-Inter font-normal lg:mt-9 md:mt-7 mt-5 lg:text-2xl md:text-xl text-lg">
+              Any potential law enforcement officials who exercised negligence
+              in allowing the abuse to occur{" "}
+            </p>
+            <div className="max-w-[470px] w-full bg-light-gray h-[2px] md:mt-7 mt-5"></div>
           </div>
-          <div className="lg:w-5/12 md:w-6/12 w-full md:justify-end justify-center flex">
+          <div className="lg:w-4/12 md:w-6/12 w-full md:justify-end justify-center flex">
             <div className="flex flex-col max-w-[422px]">
               <div className="flex justify-center mb-[22px]">
                 <ButtonWhite content="Join Our Team" />

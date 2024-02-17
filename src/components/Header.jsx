@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="bg-mirage bg-right min-h-screen bg-cover bg-hero-bg">
+    <div className="bg-mirage bg-right xl:min-h-fit min-h-screen bg-cover bg-hero-bg">
       <Sidebar />
       <div className="container max-w-[1152px] px-3 xl:pt-28 lg:pt-24 md:pt-20 pt-16 mx-auto">
         <h1 className="font-Inter font-extralight leading-[120%] xl:max-w-[1020px] md:max-w-[650px] max-w-[430px] text-white xl:text-8xxl lg:text-8xl md:text-7xl text-5xl">
@@ -31,7 +31,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex justify-center py-10">
-          <Link href="#Attorneys">
+          <Link href="#Attorneys" className="animate-bounce">
             <ScrollDown />
           </Link>
         </div>

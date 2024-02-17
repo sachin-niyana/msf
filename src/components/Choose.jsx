@@ -5,12 +5,12 @@ import ButtonWhite from "./common/ButtonWhite";
 const Choose = () => {
   return (
     <div className="bg-zircon">
-      <div className="container relative max-w-[1152px] mx-auto px-3">
+      <div className="container relative max-w-[1152px] mx-auto px-3 lg:pt-[110px] md:pt-20 sm:pt-16 pt-12">
         <div className="flex absolute right-0 justify-center items-center flex-col gap-3.5">
           <div className="bg-gray sm:h-[150px] h-[130px] rounded-full w-[2px]"></div>
           <div className="w-[14px] h-[14px] rounded-full bg-tia-maria"></div>
         </div>
-        <h2 className="font-Inter font-medium text-center leading-[120%] text-tia-maria xl:text-6xxl lg:text-6xl md:text-5xl text-4xl">
+        <h2 className="font-Inter uppercase font-medium text-center leading-[120%] text-tia-maria xl:text-6xxl lg:text-6xl md:text-5xl text-4xl">
           Why Choose Our
           <span className="text-mirage"> CALIFORNIA SEXUAL ABUSE LAWYERS?</span>
         </h2>
@@ -70,7 +70,7 @@ const Choose = () => {
               <div className="w-[14px] h-[14px] rounded-full bg-tia-maria"></div>
             </div>
             <div className="flex flex-col">
-              <h2 className="font-Inter font-medium leading-[120%] md:max-w-[600px] max-w-[430px] text-mirage xl:text-7xxl lg:text-7xl md:text-6xl text-5xl">
+              <h2 className="font-Inter uppercaseercase font-medium leading-[120%] md:max-w-[600px] max-w-[430px] text-mirage xl:text-7xxl lg:text-7xl md:text-6xl text-4xl">
                 Your Needs Are{" "}
                 <span className="text-tia-maria">Our First Priority</span>
               </h2>
