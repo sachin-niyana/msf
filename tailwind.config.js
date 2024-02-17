@@ -32,6 +32,7 @@ module.exports = {
       backgroundImage: {
         "hero-bg": "url('/assets/images/background/hero-bg.png')",
         "lines-bg": "url('/assets/images/background/lines-bg.png')",
+        "map-bg": "url('/assets/images/background/map-bg.png')",
       },
       colors: {
         mirage: "#111822",
@@ -40,6 +41,7 @@ module.exports = {
         zircon: "#f9fbff",
         silver: "#c6c6c6",
         gray: "#6e737a",
+        "light-gray": "#4a4f57",
         "tia-maria": "#cd520f",
         "hawaiian-tan": "#954115",
         "red-damask": "#de6f38",

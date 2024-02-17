@@ -3,8 +3,11 @@ import React from "react";
 
 const Attorneys = () => {
   return (
-    <div className="bg-center min-h-screen bg-cover bg-lines-bg" id="Attorneys">
-      <div className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-28 py-16">
+    <div className="bg-zircon">
+      <div
+        className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-28 py-16"
+        id="Attorneys"
+      >
         <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-center">
           <div className="flex justify-center items-center flex-col gap-3.5">
             <div className="bg-gray sm:h-[150px] h-[130px] rounded-full w-[2px]"></div>
@@ -27,7 +30,7 @@ const Attorneys = () => {
               width={530}
               height={705}
               src="/assets/images/california/women.png"
-              alt="logo"
+              alt="women"
             />
           </div>
           <div className="lg:w-7/12 md:w-6/12 w-full py-10 lg:ps-[59px] lg:pe-14 px-5">
