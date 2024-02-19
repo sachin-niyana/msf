@@ -9,7 +9,7 @@ const Header = () => {
     <div className="bg-mirage bg-right xl:min-h-fit min-h-screen bg-cover bg-hero-bg">
       <Sidebar />
       <div className="container max-w-[1152px] px-3 xl:pt-28 lg:pt-24 md:pt-20 pt-16 mx-auto">
-        <h1 className="font-Inter font-extralight leading-[120%] xl:max-w-[1020px] md:max-w-[650px] max-w-[430px] text-white xl:text-8xxl lg:text-8xl md:text-7xl text-5xl">
+        <h1 className="font-Inter font-extralight leading-[120%] xl:max-w-[1020px] md:max-w-[650px] max-w-[430px] text-white xl:text-8xxl lg:text-8xl md:text-7xl sm:text-5xl text-4xxl">
           AMERICA’S LEADING{" "}
           <span className="text-tia-maria font-bold">SEXUAL ABUSE</span> LAW
           FIRM

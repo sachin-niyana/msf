@@ -19,7 +19,7 @@ const Violence = () => {
             <div className="w-[14px] h-[14px] rounded-full bg-tia-maria"></div>
           </div>
           <div className="flex flex-col">
-            <h2 className="font-Inter uppercase font-medium lg:max-w-[420px] max-w-[600px] leading-[120%] text-white xl:text-6xxl lg:text-6xl md:text-5xl text-4xl">
+            <h2 className="font-Inter uppercase font-medium lg:max-w-[420px] max-w-[600px] leading-[120%] text-white xl:text-6xxl lg:text-6xl md:text-5xl sm:text-4xl text-3xl">
               What to Do If You Are
               <span className="text-tia-maria"> a Victim of Sexual</span>{" "}
               Violence

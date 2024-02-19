@@ -14,7 +14,7 @@ const Attorneys = () => {
             <div className="w-[14px] h-[14px] rounded-full bg-tia-maria"></div>
           </div>
           <div className="flex flex-col gap-[22px] mb-1.5">
-            <h2 className="font-Inter font-medium leading-[120%] md:max-w-[650px] max-w-[430px] text-mirage xl:text-7xxl lg:text-7xl md:text-6xl text-4xl">
+            <h2 className="font-Inter font-medium leading-[120%] md:max-w-[650px] max-w-[430px] text-mirage xl:text-7xxl lg:text-7xl md:text-6xl sm:text-4xl text-3xl">
               CALIFORNIA SEXUAL ABUSE{" "}
               <span className="text-tia-maria">ATTORNEYS</span>
             </h2>

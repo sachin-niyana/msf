@@ -11,7 +11,7 @@ const Abuse = () => {
             <div className="w-[14px] h-[14px] rounded-full bg-mirage"></div>
           </div>
           <div className="flex flex-col">
-            <h2 className="font-Inter uppercase font-medium max-w-[800px] leading-[120%] text-white xl:text-6xxl lg:text-6xl md:text-5xl text-4xl">
+            <h2 className="font-Inter uppercase font-medium max-w-[800px] leading-[120%] text-white xl:text-6xxl lg:text-6xl md:text-5xl sm:text-4xl text-3xl">
               California Sexual Abuse Lawyers
               <span className="text-tia-maria"> Who Are Here for You</span>
             </h2>

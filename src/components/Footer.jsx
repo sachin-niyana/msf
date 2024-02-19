@@ -40,7 +40,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="bg-white opacity-20 md:mt-10 mt-5 w-full h-[2px]"></div>
-      <p className="font-normal font-Inter text-sm text-bombay text-center mx-auto max-w-[750px] pt-5 md:pb-[30px] pb-5">
+      <p className="font-normal font-Inter text-sm px-3 text-bombay text-center mx-auto max-w-[750px] pt-5 md:pb-[30px] pb-5">
         © {currentYear} Manly, Stewart & Finaldi. THIS IS ATTORNEY ADVERTISING
         sponsored by John Manly - Manly, Stewart & Finaldi, a law firm located
         at 19100 Von Karman Ave. #800 Irvine, Ca.  

@@ -21,3 +21,29 @@ export const footerLink = [
   { title: "RESULTS", path: "https://in.linkedin.com/" },
   { title: "MEDIA", path: "https://www.youtube.com/" },
 ];
+export const victims = [
+  {
+    image: "/assets/images/across/cleragy.png",
+    title: "Clergy abuse",
+  },
+  {
+    image: "/assets/images/across/school.png",
+    title: "School abuse",
+  },
+  {
+    image: "/assets/images/across/uber.png",
+    title: "Uber/Lyft sexual abuse",
+  },
+  {
+    image: "/assets/images/across/camps.png",
+    title: "Abuse at youth group and summer camps",
+  },
+  {
+    image: "/assets/images/across/doctors.png",
+    title: "Sexual abuse by doctors",
+  },
+  {
+    image: "/assets/images/across/homes.png",
+    title: "Elder sexual abuse in nursing homes",
+  },
+];

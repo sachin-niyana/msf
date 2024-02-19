@@ -6,8 +6,8 @@ const Parties = () => {
     <div className="bg-zircon">
       <div className="container mx-auto px-3 max-w-[1152px] relative lg:pt-32 lg:pb-24 md:py-20 sm:py-16 py-12">
         <div className="absolute flex justify-center items-center flex-col gap-3.5">
-          <div className="bg-mirage sm:h-[150px] h-[130px] rounded-full mt-12 w-[2px]"></div>
-          <div className="w-[14px] h-[14px] rounded-full bg-mirage"></div>
+          <div className="bg-gray sm:h-[150px] h-[130px] rounded-full mt-12 w-[2px]"></div>
+          <div className="w-[14px] h-[14px] rounded-full bg-tia-maria"></div>
         </div>
         <h2 className="font-Inter uppercase font-medium text-center leading-[120%] text-mirage xl:text-6xxl lg:text-6xl md:text-5xl text-4xl">
           We Pursue All <span className="text-tia-maria"> Liable Parties</span>

@@ -1,3 +1,6 @@
+"use client";
+import { useState } from "react";
+
 export const RightArrow = () => {
   return (
     <svg
@@ -11,6 +14,47 @@ export const RightArrow = () => {
       <path
         d="M35.6257 6.9975C35.9366 6.6866 35.9366 6.18254 35.6257 5.87164L30.5594 0.805245C30.2485 0.494347 29.7444 0.494347 29.4335 0.805245C29.1226 1.11614 29.1226 1.62021 29.4335 1.93111L33.937 6.43457L29.4335 10.938C29.1226 11.2489 29.1226 11.753 29.4335 12.0639C29.7444 12.3748 30.2485 12.3748 30.5594 12.0639L35.6257 6.9975ZM0.0183105 7.23068H35.0628V5.63846H0.0183105V7.23068Z"
         fill="black"
+      />
+    </svg>
+  );
+};
+export const SlideRightArrow = () => {
+  const [isHovered, setIsHovered] = useState(false);
+  return (
+    <svg
+      width="68"
+      height="16"
+      viewBox="0 0 68 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className="transition-colors duration-300 ease-in-out"
+    >
+      <path
+        d="M67.4376 8.58504C67.8281 8.19451 67.8281 7.56135 67.4376 7.17082L61.0736 0.806862C60.6831 0.416337 60.0499 0.416337 59.6594 0.806862C59.2689 1.19739 59.2689 1.83055 59.6594 2.22108L65.3163 7.87793L59.6594 13.5348C59.2689 13.9253 59.2689 14.5585 59.6594 14.949C60.0499 15.3395 60.6831 15.3395 61.0736 14.949L67.4376 8.58504ZM0.876465 8.87793H66.7305V6.87793H0.876465V8.87793Z"
+        fill={isHovered ? "#cd520f" : "#111822"}
+      />
+    </svg>
+  );
+};
+export const SlideLeftArrow = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <svg
+      width="68"
+      height="16"
+      viewBox="0 0 68 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className="transition-colors duration-300 ease-in-out"
+    >
+      <path
+        d="M1.19768 7.17082C0.807152 7.56135 0.807152 8.19451 1.19768 8.58504L7.56164 14.949C7.95216 15.3395 8.58533 15.3395 8.97585 14.949C9.36638 14.5585 9.36638 13.9253 8.97585 13.5348L3.319 7.87793L8.97585 2.22108C9.36638 1.83055 9.36638 1.19739 8.97585 0.806862C8.58533 0.416337 7.95216 0.416337 7.56164 0.806862L1.19768 7.17082ZM67.7588 6.87793H1.90479V8.87793H67.7588V6.87793Z"
+        fill={isHovered ? "#cd520f" : "#111822"}
       />
     </svg>
   );
