@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Attorneys = () => {
@@ -6,7 +7,7 @@ const Attorneys = () => {
     <div className="bg-zircon">
       <div
         className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-24 py-12"
-        id="Attorneys"
+        id="HoME"
       >
         <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-center">
           <div className="flex justify-center items-center flex-col gap-3.5">
@@ -37,8 +38,13 @@ const Attorneys = () => {
             <p className="text-base text-bombay tracking-[-3%] leading-[237.5%] font-normal font-Inter">
               Manly, Stewart & Finaldi is regarded as America’s leading law firm
               for sexual abuse cases. Our founder and managing partner, 
-              <span className="font-bold underline">
-                attorney John C. Manly,
+              <span>
+                <Link
+                  href="https://www.manlystewart.com/professionals/john-c-manly/"
+                  className="font-bold underline"
+                >
+                  attorney John C. Manly,
+                </Link>
               </span>{" "}
               has been successfully representing sexual abuse victims for over
               20 years. He has been included in Super Lawyers® and named to
@@ -55,9 +61,14 @@ const Attorneys = () => {
             </p>
             <p className="text-base text-bombay mt-7 tracking-[-3%] leading-[237.5%] font-semibold font-Inter">
               Manly Stewart & Finaldi is currently investigating alleged 
-              <span className="font-bold underline">
-                sexual abuse by Dr. Robert E. Anderson at the University of
-                Michigan.
+              <span>
+                <Link
+                  href="https://www.manlystewart.com/university-of-michigan-sexual-assault-attorney/"
+                  className="font-bold underline"
+                >
+                  sexual abuse by Dr. Robert E. Anderson at the University of
+                  Michigan.
+                </Link>
               </span>
                 Contact our firm today if you were affected.
             </p>

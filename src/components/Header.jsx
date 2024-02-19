@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar";
 import ButtonWhite from "./common/ButtonWhite";
 import { ScrollDown } from "./Icon";
 import Link from "next/link";
+import HeaderSlide from "./HeaderSlide";
 
 const Header = () => {
   return (
@@ -30,11 +31,12 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center py-10">
-          <Link href="#Attorneys" className="animate-bounce">
-            <ScrollDown />
-          </Link>
-        </div>
+      </div>
+      <HeaderSlide />
+      <div className="flex justify-center py-10">
+        <Link href="#HoME" className="animate-bounce">
+          <ScrollDown />
+        </Link>
       </div>
     </div>
   );

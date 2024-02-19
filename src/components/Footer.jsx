@@ -34,7 +34,9 @@ const Footer = () => {
         <ul className="flex justify-center items-center gap-4">
           {socialLink.map((value, index) => (
             <li key={index} className="hover:translate-y-[-5px] duration-300">
-              <Link href={value.path}>{value.image}</Link>
+              <Link target="_blank" href={value.path}>
+                {value.image}
+              </Link>
             </li>
           ))}
         </ul>

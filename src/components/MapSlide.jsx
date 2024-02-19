@@ -11,7 +11,7 @@ const MapSlide = () => {
     dots: false,
     infinite: true,
     autoplay: false,
-    arrows: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

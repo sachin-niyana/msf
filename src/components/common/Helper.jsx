@@ -1,11 +1,11 @@
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "../Icon";
 
 export const sidebarLink = [
-  { title: "Attorneys", path: "#Attorneys" },
-  { title: "Priority", path: "#Priority" },
-  { title: "Pursue ", path: "#Pursue" },
-  { title: "Post", path: "#Post" },
-  { title: "Contact", path: "#Contact" },
+  { title: "HoME", path: "#HoME" },
+  { title: "ABOUT US", path: "#ABOUT-US" },
+  { title: "ATTORNEYS ", path: "#ATTORNEYS" },
+  { title: "RESULTS", path: "#RESULTS" },
+  { title: "MEDIA", path: "#MEDIA" },
 ];
 export const socialLink = [
   { image: <Facebook />, path: "https://www.facebook.com/" },
@@ -45,5 +45,55 @@ export const victims = [
   {
     image: "/assets/images/across/homes.png",
     title: "Elder sexual abuse in nursing homes",
+  },
+];
+export const headerSlide = [
+  {
+    image: "/assets/images/across/cleragy.png",
+  },
+  {
+    image: "/assets/images/across/school.png",
+  },
+  {
+    image: "/assets/images/across/uber.png",
+  },
+  {
+    image: "/assets/images/across/camps.png",
+  },
+  {
+    image: "/assets/images/across/doctors.png",
+  },
+  {
+    image: "/assets/images/across/homes.png",
+  },
+  {
+    image: "/assets/images/across/cases.png",
+  },
+  {
+    image: "/assets/images/across/sports.png",
+  },
+  {
+    image: "/assets/images/across/cleragy.png",
+  },
+  {
+    image: "/assets/images/across/school.png",
+  },
+  {
+    image: "/assets/images/across/uber.png",
+  },
+  {
+    image: "/assets/images/across/camps.png",
+  },
+  {
+    image: "/assets/images/across/doctors.png",
+  },
+  {
+    image: "/assets/images/across/homes.png",
+  },
+  {
+    image: "/assets/images/across/cases.png",
+  },
+  {
+    image: "/assets/images/across/sports.png",
   },
 ];

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Abuse = () => {
@@ -26,8 +27,13 @@ const Abuse = () => {
             <p className="text-white text-base leading-[237.5%] max-w-[820px] mt-5 font-normal font-Inter">
               If you or a loved one is a survivor of sexual violence and abuse,
               please 
-              <span className="text-tia-maria font-bold underline">
-                contact our law offices in Southern California
+              <span>
+                <Link
+                  href="https://www.manlystewart.com/contact-us/"
+                  className="text-tia-maria font-bold underline"
+                >
+                  contact our law offices in Southern California
+                </Link>
               </span>
                for a free, 100% confidential consultation regarding your case.
             </p>

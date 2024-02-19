@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ButtonWhite from "./common/ButtonWhite";
+import Link from "next/link";
 
 const Choose = () => {
   return (
@@ -21,8 +22,13 @@ const Choose = () => {
           500 companies, or any other rich and powerful institution. In fact,
           our team of legal professionals has represented hundreds of victims
           of 
-          <span className="font-bold text-tia-maria underline">
-            clergy sexual abuse in California
+          <span>
+            <Link
+              href="https://www.manlystewart.com/university-of-michigan-sexual-assault-attorney/"
+              className="font-bold text-tia-maria underline"
+            >
+              clergy sexual abuse in California
+            </Link>
           </span>
            including in Los Angeles, and Orange County, plus hundreds of young
           children victimized in in California’s schools. We are one of the
@@ -37,8 +43,13 @@ const Choose = () => {
             </h3>
             <p className="text-base text-bombay pb-1.5 mt-5 leading-[237.5%] font-normal font-Inter">
               If you or someone you know has suffered 
-              <span className="text-tia-maria underline">
-                sexual abuse at school in California,
+              <span>
+                <Link
+                  href="https://www.manlystewart.com/practice-areas/child-sexual-abuse/sexual-abuse-in-school/"
+                  className="text-tia-maria underline"
+                >
+                  sexual abuse at school in California,
+                </Link>
               </span>{" "}
               in church, at work, by a sports coach, at a hospital or by a
               doctor, while in foster care, or by a Boy Scout leader, we are
@@ -63,7 +74,7 @@ const Choose = () => {
             />
           </div>
         </div>
-        <div className="bg-center bg-cover bg-map-bg relative">
+        <div className="bg-center bg-cover bg-map-bg relative" id="Priority">
           <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-start lg:pt-[141px] lg:pb-[146px] md:py-28 sm:py-20 py-12 ">
             <div className="flex justify-center items-center flex-col gap-3.5">
               <div className="bg-gray sm:h-[150px] h-[130px] rounded-full mt-12 w-[2px]"></div>
@@ -92,11 +103,20 @@ const Choose = () => {
                 committed against you, but we also strive to invoke change at an
                 institutional level to ensure that nobody else has to go through
                 the same traumatic experiences. Whether you need a 
-                <span className="font-bold text-tia-maria underline">
-                  Los Angeles sexual abuse lawyer
+                <span>
+                  <Link
+                    href="https://www.manlystewart.com/los-angeles-sexual-assault-attorney/"
+                    className="font-bold text-tia-maria underline"
+                  >
+                    Los Angeles sexual abuse lawyer
+                  </Link>
                 </span>
                  or an 
-                <span className="font-bold text-tia-maria underline">
+                <span>
+                  <Link
+                    href="https://www.manlystewart.com/orange-county-sexual-assault-lawyer/"
+                    className="font-bold text-tia-maria underline"
+                  ></Link>
                   Orange County sexual abuse attorney,
                 </span>{" "}
                 we can help victims all over Southern California.

@@ -5,9 +5,9 @@ import BackToTop from "@/components/BackToTop";
 import Choose from "@/components/Choose";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import HeaderSlider from "@/components/HeaderSlider";
 import MapSlide from "@/components/MapSlide";
 import Parties from "@/components/Parties";
+import Posts from "@/components/Posts";
 import Violence from "@/components/Violence";
 
 export default function Home() {
@@ -22,9 +22,9 @@ export default function Home() {
         <Across />
         <Parties />
         <Abuse />
+        <Posts />
         <MapSlide />
         <Footer />
-        <HeaderSlider />
       </div>
     </>
   );
