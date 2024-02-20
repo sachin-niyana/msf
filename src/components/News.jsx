@@ -53,9 +53,9 @@ const News = () => {
             <div className="max-w-[358px] cursor-pointer group">
               <div className="bg-mirage px-[22px] py-7">
                 <p className="text-center font-Inter font-normal duration-300 group-hover:text-white text-base sm:leading-[237.5%] leading-[150%] text-bombay">
-                  Hipster ipsum tattooed brunch I'm baby. Pork jean messenger
-                  I'm mukbang kitsch cronut. Umami copper salvia selvage
-                  thundercats celiac..
+                  Hipster ipsum tattooed brunch I&apos;m baby. Pork jean
+                  messenger I&apos;m mukbang kitsch cronut. Umami copper salvia
+                  selvage thundercats celiac..
                 </p>
                 <div className="flex justify-center group-hover:translate-x-3 duration-300 md:mt-9 sm:mt-7 mt-5">
                   <NewsArrow />
@@ -76,9 +76,9 @@ const News = () => {
             <div className="max-w-[358px] cursor-pointer group">
               <div className="bg-mirage px-[22px] py-7">
                 <p className="text-center font-Inter font-normal duration-300 group-hover:text-white text-base sm:leading-[237.5%] leading-[150%] text-bombay">
-                  Hipster ipsum tattooed brunch I'm baby. Pork jean messenger
-                  I'm mukbang kitsch cronut. Umami copper salvia selvage
-                  thundercats celiac..
+                  Hipster ipsum tattooed brunch I&apos;m baby. Pork jean
+                  messenger I&apos;m mukbang kitsch cronut. Umami copper salvia
+                  selvage thundercats celiac..
                 </p>
                 <div className="flex justify-center group-hover:translate-x-3 duration-300 md:mt-9 sm:mt-7 mt-5">
                   <NewsArrow />
@@ -99,9 +99,9 @@ const News = () => {
             <div className="max-w-[358px] cursor-pointer group">
               <div className="bg-mirage px-[22px] py-7">
                 <p className="text-center font-Inter font-normal duration-300 group-hover:text-white text-base sm:leading-[237.5%] leading-[150%] text-bombay">
-                  Hipster ipsum tattooed brunch I'm baby. Pork jean messenger
-                  I'm mukbang kitsch cronut. Umami copper salvia selvage
-                  thundercats celiac..
+                  Hipster ipsum tattooed brunch I&apos;m baby. Pork jean
+                  messenger I&apos;m mukbang kitsch cronut. Umami copper salvia
+                  selvage thundercats celiac..
                 </p>
                 <div className="flex justify-center group-hover:translate-x-3 duration-300 md:mt-9 sm:mt-7 mt-5">
                   <NewsArrow />
