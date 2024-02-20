@@ -6,7 +6,7 @@ const Attorneys = () => {
   return (
     <div className="bg-zircon">
       <div
-        className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-24 py-12"
+        className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-24 py-12 bg-lines-bg !bg-cover bg-center w-full"
         id="HOME"
       >
         <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-center">
@@ -46,7 +46,7 @@ const Attorneys = () => {
               <span>
                 <Link
                   href="https://www.manlystewart.com/professionals/john-c-manly/"
-                  className="font-bold underline"
+                  className="font-bold underline-offset-4 underline"
                 >
                   attorney John C. Manly,
                 </Link>
@@ -69,7 +69,7 @@ const Attorneys = () => {
               <span>
                 <Link
                   href="https://www.manlystewart.com/university-of-michigan-sexual-assault-attorney/"
-                  className="font-bold underline"
+                  className="font-bold underline-offset-4 underline"
                 >
                   sexual abuse by Dr. Robert E. Anderson at the University of
                   Michigan.

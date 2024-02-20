@@ -25,7 +25,7 @@ const Choose = () => {
           <span>
             <Link
               href="https://www.manlystewart.com/university-of-michigan-sexual-assault-attorney/"
-              className="font-bold text-tia-maria underline"
+              className="font-bold text-tia-maria underline-offset-4 underline"
             >
               clergy sexual abuse in California
             </Link>
@@ -51,7 +51,7 @@ const Choose = () => {
               <span>
                 <Link
                   href="https://www.manlystewart.com/practice-areas/child-sexual-abuse/sexual-abuse-in-school/"
-                  className="text-tia-maria underline"
+                  className="text-tia-maria underline-offset-4 underline"
                 >
                   sexual abuse at school in California,
                 </Link>
@@ -111,7 +111,7 @@ const Choose = () => {
                 <span>
                   <Link
                     href="https://www.manlystewart.com/los-angeles-sexual-assault-attorney/"
-                    className="font-bold text-tia-maria underline"
+                    className="font-bold text-tia-maria underline-offset-4 underline"
                   >
                     Los Angeles sexual abuse lawyer
                   </Link>
@@ -120,7 +120,7 @@ const Choose = () => {
                 <span>
                   <Link
                     href="https://www.manlystewart.com/orange-county-sexual-assault-lawyer/"
-                    className="font-bold text-tia-maria underline"
+                    className="font-bold text-tia-maria underline-offset-4 underline"
                   ></Link>
                   Orange County sexual abuse attorney,
                 </span>{" "}

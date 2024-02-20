@@ -1,9 +1,9 @@
-import React from "react";
+import { WhiteArrow } from "./Icon";
 
 const Anything = () => {
   return (
     <div className="bg-cover bg-anything-bg">
-      <div className="container mx-auto px-3 max-w-[1152px] relative lg:pt-32 lg:pb-24 md:py-20 sm:py-16 py-12">
+      <div className="container mx-auto px-3 max-w-[1152px] relative lg:pt-[116px] lg:pb-[146px] md:py-20 sm:py-16 py-12">
         <div className="absolute md:block hidden justify-center items-center flex-col">
           <div className="bg-gray sm:h-[150px] mx-auto h-[130px] rounded-full mt-12 w-[2px]"></div>
           <div className="w-[14px] h-[14px] rounded-full bg-tia-maria mt-3.5"></div>
@@ -129,6 +129,17 @@ const Anything = () => {
           <p className="text-bombay font-Inter text-base font-normal">
             I HAVE READ THIS DISCLAIMER
           </p>
+        </div>
+        <div className="group duration-300 inline-block lg:mt-[62px] mt">
+          <button
+            className="font-Inter font-normal sm:text-xl text-lg duration-300 text-white group-hover:text-mirage bg-tia-maria flex items-center gap-2 rounded-[70px] p-[15px_27px] 
+           "
+          >
+            <span>
+              <WhiteArrow />
+            </span>
+            Send Message
+          </button>
         </div>
       </div>
     </div>

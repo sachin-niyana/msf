@@ -4,7 +4,7 @@ import ButtonWhite from "./common/ButtonWhite";
 const Parties = () => {
   return (
     <div className="bg-zircon">
-      <div className="container mx-auto px-3 max-w-[1152px] relative lg:pt-32 lg:pb-24 md:py-20 sm:py-16 py-12">
+      <div className="container mx-auto px-3 max-w-[1152px] relative lg:pt-32 lg:pb-24 md:py-20 sm:py-16 py-12 bg-lines-bg !bg-cover bg-center w-full">
         <div className="absolute md:block hidden justify-center  items-center flex-col ">
           <div className="bg-gray sm:h-[150px] h-[130px] mx-auto rounded-full mt-12 w-[2px]"></div>
           <div className="w-[14px] h-[14px] rounded-full bg-tia-maria mt-3.5"></div>

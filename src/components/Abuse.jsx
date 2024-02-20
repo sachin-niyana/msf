@@ -30,7 +30,7 @@ const Abuse = () => {
               <span>
                 <Link
                   href="https://www.manlystewart.com/contact-us/"
-                  className="text-tia-maria font-bold underline"
+                  className="text-tia-maria font-bold underline-offset-4 underline"
                 >
                   contact our law offices in Southern California
                 </Link>

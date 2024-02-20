@@ -24,7 +24,7 @@ const MapSlide = () => {
   };
   return (
     <div className="bg-zircon">
-      <div className="container max-w-[1152px] mx-auto px-3 overflow-hidden lg:py-[121px] md:py-24 sm:py-16 py-12">
+      <div className="container max-w-[1152px] mx-auto px-3 overflow-hidden lg:py-[121px] md:py-24 sm:py-16 py-12 bg-lines-bg !bg-cover bg-center w-full">
         <h2 className="font-Inter uppercase font-medium text-start mx-auto max-w-[970px] leading-[120%] text-tia-maria xl:text-6xxl lg:text-6xl md:text-5xl sm:text-4xl text-3xl">
           Contact Our California{" "}
           <span className="text-mirage">Sexual Abuse Attorneys</span> Today!

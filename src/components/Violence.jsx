@@ -6,7 +6,7 @@ const Violence = () => {
   return (
     <div className="bg-mirage relative" id="ABOUT-US">
       <Image
-        className="xl:max-w-[702px] md:max-w-[550px] lg:block hidden max-w-[400px] h-full w-full absolute right-0 top-[-5%]"
+        className="xl:max-w-[702px] md:max-w-[550px] lg:block hidden max-w-[400px] h-full w-full absolute right-0 bottom-0"
         width={702}
         height={1300}
         src="/assets/images/violence/violence.png"

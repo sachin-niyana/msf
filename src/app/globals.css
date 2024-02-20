@@ -7,8 +7,22 @@
   fill: white !important;
   transition: all 300ms linear !important;
 }
+.group:hover .whitearrow-svg path {
+  fill: #111822 !important;
+  transition: all 300ms linear !important;
+}
 
 .slick-next:before {
   content: "→";
   display: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }

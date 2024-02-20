@@ -26,8 +26,11 @@ const Posts = () => {
     sliderRef.current.slickNext();
   };
   return (
-    <div className="bg-center bg-cover bg-map-bg relative bg-zircon" id="MEDIA">
-      <div className="container max-w-[1152px] px-3 mx-auto lg:pt-[104px] overflow-hidden lg:pb-[107px] md:py-20 sm:py-16 py-12">
+    <div
+      className="bg-center bg-cover bg-map-bg relative bg-zircon "
+      id="MEDIA"
+    >
+      <div className="container max-w-[1152px] px-3 mx-auto lg:pt-[104px] overflow-hidden lg:pb-[107px] md:py-20 sm:py-16 py-12 ">
         <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-start">
           <div className="justify-center items-center flex-col">
             <div className="bg-gray md:h-[150px] sm:h-[100px] h-[80px] rounded-full mx-auto w-[2px]"></div>

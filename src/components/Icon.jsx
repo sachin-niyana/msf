@@ -18,6 +18,23 @@ export const RightArrow = () => {
     </svg>
   );
 };
+export const WhiteArrow = () => {
+  return (
+    <svg
+      className="whitearrow-svg duration-300"
+      width="36"
+      height="13"
+      viewBox="0 0 36 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M35.772 6.98676C36.0829 6.67586 36.0829 6.17179 35.772 5.8609L30.7056 0.794503C30.3947 0.483604 29.8906 0.483604 29.5797 0.794503C29.2688 1.1054 29.2688 1.60947 29.5797 1.92037L34.0832 6.42383L29.5797 10.9273C29.2688 11.2382 29.2688 11.7423 29.5797 12.0532C29.8906 12.3641 30.3947 12.3641 30.7056 12.0532L35.772 6.98676ZM0.164551 7.21993H35.2091V5.62772H0.164551V7.21993Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
 export const NewsArrow = () => {
   return (
     <svg
