@@ -33,6 +33,7 @@ module.exports = {
         "hero-bg": "url('/assets/images/background/hero-bg.png')",
         "lines-bg": "url('/assets/images/background/lines-bg.png')",
         "map-bg": "url('/assets/images/background/map-bg.png')",
+        "anything-bg": "url('/assets/images/background/anything-bg.png')",
       },
       colors: {
         mirage: "#111822",

@@ -30,7 +30,12 @@ const MapSlide = () => {
           <span className="text-mirage">Sexual Abuse Attorneys</span> Today!
         </h2>
         <div className="flex justify-end">
-          <div className="relative w-full max-w-[713px] md:mt-2 mt-10">
+          <div
+            className="relative w-full max-w-[713px] md:mt-2 mt-10"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             <Slider ref={sliderRef} {...settings}>
               <div className="flex flex-col">
                 <iframe
@@ -43,7 +48,9 @@ const MapSlide = () => {
                     <h5 className="text-mirage font-Inter font-semibold md:text-2xl sm:text-xl text-lg">
                       SOUTHERN CALIFORNIA OFFICE
                     </h5>
-                    <p>19100 Von Karman Avenue, Suite 800, Irvine, CA 92612</p>
+                    <p className="font-Inter text-mirage text-base font-normal">
+                      19100 Von Karman Avenue, Suite 800, Irvine, CA 92612
+                    </p>
                   </div>
                   <div className="flex flex-col me-2.5">
                     <p className="text-mirage font-Inter font-normal text-base">

@@ -45,7 +45,12 @@ const HeaderSlide = () => {
     ],
   };
   return (
-    <div className="pt-[34px]">
+    <div
+      className="pt-[34px]"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="800"
+    >
       <Slider {...settings}>
         {headerSlide.map((value, index) => (
           <div key={index} className="m-0">

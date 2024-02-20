@@ -18,6 +18,22 @@ export const RightArrow = () => {
     </svg>
   );
 };
+export const NewsArrow = () => {
+  return (
+    <svg
+      width="70"
+      height="16"
+      viewBox="0 0 70 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M69.3685 8.38191C69.759 7.99139 69.759 7.35822 69.3685 6.9677L63.0045 0.603737C62.614 0.213212 61.9808 0.213212 61.5903 0.603737C61.1998 0.994261 61.1998 1.62743 61.5903 2.01795L67.2472 7.6748L61.5903 13.3317C61.1998 13.7222 61.1998 14.3553 61.5903 14.7459C61.9808 15.1364 62.614 15.1364 63.0045 14.7459L69.3685 8.38191ZM0.464844 8.6748H68.6614V6.6748H0.464844V8.6748Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
 export const SlideRightArrow = () => {
   const [isHovered, setIsHovered] = useState(false);
   const arrowStyle = {
@@ -64,8 +80,9 @@ export const SlideLeftArrow = () => {
 export const Youtube = () => {
   return (
     <svg
-      width="33"
-      height="33"
+      className="sm:w-8 sm:h-8"
+      width="24"
+      height="24"
       viewBox="0 0 33 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -92,8 +109,9 @@ export const Youtube = () => {
 export const Linkedin = () => {
   return (
     <svg
-      width="33"
-      height="33"
+      className="sm:w-8 sm:h-8"
+      width="24"
+      height="24"
       viewBox="0 0 33 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -128,8 +146,9 @@ export const Linkedin = () => {
 export const Instagram = () => {
   return (
     <svg
-      width="32"
-      height="33"
+      className="sm:w-8 sm:h-8"
+      width="24"
+      height="24"
       viewBox="0 0 32 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -156,8 +175,9 @@ export const Instagram = () => {
 export const Twitter = () => {
   return (
     <svg
-      width="33"
-      height="33"
+      className="sm:w-8 sm:h-8"
+      width="24"
+      height="24"
       viewBox="0 0 33 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -184,8 +204,9 @@ export const Twitter = () => {
 export const Facebook = () => {
   return (
     <svg
-      width="33"
-      height="33"
+      className="sm:w-8 sm:h-8"
+      width="24"
+      height="24"
       viewBox="0 0 33 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

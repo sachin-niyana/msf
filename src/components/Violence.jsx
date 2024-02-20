@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Violence = () => {
   return (
-    <div className="bg-mirage relative">
+    <div className="bg-mirage relative" id="ABOUT-US">
       <Image
         className="xl:max-w-[702px] md:max-w-[550px] lg:block hidden max-w-[400px] h-full w-full absolute right-0 top-[-5%]"
         width={702}
@@ -24,7 +24,7 @@ const Violence = () => {
               <span className="text-tia-maria"> a Victim of Sexual</span>{" "}
               Violence
             </h2>
-            <p className="text-bombay text-base leading-[237.5%] lg:max-w-[535px] max-w-[600px] lg:mt-12 md:mt-10 mt-8 font-normal font-Inter">
+            <p className="text-bombay text-base sm:leading-[237.5%] leading-[150%] lg:max-w-[535px] max-w-[600px] lg:mt-12 md:mt-10 sm:mt-8 mt-4 font-normal font-Inter">
               If you or a loved one has been a victim of harassment or sexual
               violence, don’t give up. Our California sexual abuse attorneys are
               here to help you seek justice. We are passionate about our work,
@@ -33,7 +33,7 @@ const Violence = () => {
               are dedicated to helping people like you get the peace of mind and
               compensation they deserve.
             </p>
-            <p className="text-bombay text-base leading-[237.5%] lg:max-w-[535px] max-w-[600px] lg:mt-9 md:mt-7 mt-5 font-normal font-Inter">
+            <p className="text-bombay text-base sm:leading-[237.5%] leading-[150%] lg:max-w-[535px] max-w-[600px] lg:mt-9 md:mt-7 sm:mt-5 mt-3 font-normal font-Inter">
               Contact a sexual abuse attorney at our Southern California law
               firm for recognized legal representation in a sex abuse case. We
               can help you move forward with civil action. For legal advice,

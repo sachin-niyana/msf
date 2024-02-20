@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Choose = () => {
   return (
-    <div className="bg-zircon">
+    <div className="bg-zircon" id="ATTORNEYS">
       <div className="container relative max-w-[1152px] mx-auto px-3 lg:pt-[110px] md:pt-20 sm:pt-16 pt-12">
         <div className="flex absolute right-0 justify-center items-center flex-col gap-3.5">
           <div className="bg-gray sm:h-[150px] h-[130px] rounded-full w-[2px]"></div>
@@ -15,7 +15,7 @@ const Choose = () => {
           Why Choose Our
           <span className="text-mirage"> CALIFORNIA SEXUAL ABUSE LAWYERS?</span>
         </h2>
-        <p className=" text-mirage leading-[237%] pt-7 max-w-[890px] text-center mx-auto text-base font-Inter font-normal">
+        <p className=" text-mirage sm:leading-[237.5%] leading-[150%] sm:pt-7 pt-3 max-w-[890px] text-center mx-auto text-base font-Inter font-normal">
           At Manly, Stewart & Finaldi, our renowned sexual abuse attorneys are
           not afraid to stand up to any institution, whether it is a school
           district, religious institution, entertainment conglomerate, Fortune
@@ -35,13 +35,18 @@ const Choose = () => {
           nation’s leading law firms for representing survivors of sexual
           violence.
         </p>
-        <div className="flex bg-mirage justify-center md:flex-row flex-col-reverse flex-wrap md:mt-20 mt-10">
+        <div
+          className="flex bg-mirage justify-center md:flex-row flex-col-reverse flex-wrap md:mt-20 mt-10"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+        >
           <div className="lg:w-7/12 md:w-6/12 w-full py-10 lg:ps-10 lg:pe-20 px-5">
             <h3 className="text-white leading-[110%] lg:text-4xxl md:text-4xl text-3xl font-Inter font-medium max-w-[440px]">
               Decades of{" "}
               <span className="text-tia-maria">Experience & Results</span>
             </h3>
-            <p className="text-base text-bombay pb-1.5 mt-5 leading-[237.5%] font-normal font-Inter">
+            <p className="text-base text-bombay pb-1.5 sm:mt-5 mt-3 sm:leading-[237.5%] leading-[150%] font-normal font-Inter">
               If you or someone you know has suffered 
               <span>
                 <Link
@@ -85,7 +90,7 @@ const Choose = () => {
                 Your Needs Are{" "}
                 <span className="text-tia-maria">Our First Priority</span>
               </h2>
-              <p className="text-mirage text-base leading-[237.5%] max-w-[785px] mt-3 font-normal font-Inter">
+              <p className="text-mirage text-base sm:leading-[237.5%] leading-[150%] max-w-[785px] mt-3 font-normal font-Inter">
                 We understand the devastating nature and the emotional distress
                 of unwanted sexual contact and the lasting impact it may have on
                 a survivor. That’s why we take on every case with a
@@ -98,7 +103,7 @@ const Choose = () => {
                 has concluded, our California sexual abuse attorneys will do our
                 best to find the assistance you deserve.
               </p>
-              <p className="text-mirage text-base leading-[237.5%] max-w-[785px] mt-7 font-normal font-Inter">
+              <p className="text-mirage text-base sm:leading-[237.5%] leading-[150%] max-w-[785px] sm:mt-7 mt-3 font-normal font-Inter">
                 We not only seek justice for any actions that may have been
                 committed against you, but we also strive to invoke change at an
                 institutional level to ensure that nobody else has to go through

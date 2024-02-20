@@ -16,7 +16,7 @@ const Abuse = () => {
               California Sexual Abuse Lawyers
               <span className="text-tia-maria"> Who Are Here for You</span>
             </h2>
-            <p className="text-white text-base leading-[237.5%] max-w-[820px] mt-7 font-normal font-Inter">
+            <p className="text-white text-base sm:leading-[237.5%] leading-[150%] max-w-[820px] sm:mt-7 mt-4 font-normal font-Inter">
               No case is too challenging for our lawyers. When we say that we
               aren’t afraid to stand up to any major institution, we have the
               track record to prove it. The firm has recovered more than $2
@@ -24,7 +24,7 @@ const Abuse = () => {
               school districts, religious institutions, municipalities, sports
               and youth organizations and Fortune 500 companies.
             </p>
-            <p className="text-white text-base leading-[237.5%] max-w-[820px] mt-5 font-normal font-Inter">
+            <p className="text-white text-base sm:leading-[237.5%] leading-[150%] max-w-[820px] sm:mt-5 mt-3 font-normal font-Inter">
               If you or a loved one is a survivor of sexual violence and abuse,
               please 
               <span>
@@ -37,13 +37,16 @@ const Abuse = () => {
               </span>
                for a free, 100% confidential consultation regarding your case.
             </p>
-            <p className="text-white text-base leading-[237.5%] max-w-[820px] mt-5 font-normal font-Inter">
+            <p className="text-white text-base sm:leading-[237.5%] leading-[150%] max-w-[820px] sm:mt-5 mt-3 font-normal font-Inter">
               You deserve closure, and any responsible parties deserve justice
               for their despicable actions. Let a trusted California sexual
               abuse lawyer at our firm help you today.
             </p>
             <Image
               className=" max-w-[1000px] object-cover h-full !w-full md:mt-[54px] mt-8"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="800"
               width={1002}
               height={541}
               src="/assets/images/abuse/abuse.png"

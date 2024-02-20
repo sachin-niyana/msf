@@ -34,7 +34,7 @@ const Header = () => {
       </div>
       <HeaderSlide />
       <div className="flex justify-center py-10">
-        <Link href="#HoME" className="animate-bounce">
+        <Link href="#HOME" className="animate-bounce">
           <ScrollDown />
         </Link>
       </div>

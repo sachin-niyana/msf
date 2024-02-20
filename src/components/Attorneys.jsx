@@ -7,7 +7,7 @@ const Attorneys = () => {
     <div className="bg-zircon">
       <div
         className="container max-w-[1152px] mx-auto px-3 lg:py-40 md:py-24 py-12"
-        id="HoME"
+        id="HOME"
       >
         <div className="flex justify-start lg:gap-32 md:gap-20 sm:gap-10 gap-5 items-center">
           <div className="flex justify-center items-center flex-col gap-3.5">
@@ -24,7 +24,12 @@ const Attorneys = () => {
             </p>
           </div>
         </div>
-        <div className="flex bg-mirage justify-center flex-wrap md:mt-20 mt-10">
+        <div
+          className="flex bg-mirage justify-center flex-wrap md:mt-20 mt-10"
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+        >
           <div className="lg:w-5/12 md:w-6/12 w-full justify-center flex">
             <Image
               className=" max-w-[530px] object-cover h-full w-full"
@@ -35,7 +40,7 @@ const Attorneys = () => {
             />
           </div>
           <div className="lg:w-7/12 md:w-6/12 w-full py-10 lg:ps-[59px] lg:pe-14 px-5">
-            <p className="text-base text-bombay tracking-[-3%] leading-[237.5%] font-normal font-Inter">
+            <p className="text-base text-bombay tracking-[-3%] sm:leading-[237.5%] leading-[150%] font-normal font-Inter">
               Manly, Stewart & Finaldi is regarded as America’s leading law firm
               for sexual abuse cases. Our founder and managing partner, 
               <span>
@@ -50,7 +55,7 @@ const Attorneys = () => {
               20 years. He has been included in Super Lawyers® and named to
               California’s Top 100 Attorneys by the Los Angeles Daily Journal.
             </p>
-            <p className="text-base text-bombay mt-7 tracking-[-3%] leading-[237.5%] font-normal font-Inter">
+            <p className="text-base text-bombay sm:mt-7 mt-3 tracking-[-3%] sm:leading-[237.5%] leading-[150%] font-normal font-Inter">
               Victim’s advocate and California sexual abuse lawyer John Manly
               understands that sexual abuse is an ongoing crisis and has devoted
               himself to becoming a national leader in the legal battle against
@@ -59,7 +64,7 @@ const Attorneys = () => {
               representation to obtain justice for sexual abuse survivors,
               harassment, and discrimination.
             </p>
-            <p className="text-base text-bombay mt-7 tracking-[-3%] leading-[237.5%] font-semibold font-Inter">
+            <p className="text-base text-bombay sm:mt-7 mt-3 tracking-[-3%] sm:leading-[237.5%] leading-[150%] font-semibold font-Inter">
               Manly Stewart & Finaldi is currently investigating alleged 
               <span>
                 <Link

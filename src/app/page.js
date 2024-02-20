@@ -1,5 +1,7 @@
+"use client";
 import Abuse from "@/components/Abuse";
 import Across from "@/components/Across";
+import Anything from "@/components/Anything";
 import Attorneys from "@/components/Attorneys";
 import BackToTop from "@/components/BackToTop";
 import Choose from "@/components/Choose";
@@ -9,8 +11,17 @@ import MapSlide from "@/components/MapSlide";
 import Parties from "@/components/Parties";
 import Posts from "@/components/Posts";
 import Violence from "@/components/Violence";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // animation duration in milliseconds
+      easing: "ease-in-out", // animation timing function
+      once: true, // whether animation should only happen once
+    });
+  }, []);
   return (
     <>
       <div className="!scroll-smooth transition-all ease-in-out duration-1000">
@@ -23,6 +34,7 @@ export default function Home() {
         <Parties />
         <Abuse />
         <Posts />
+        <Anything />
         <MapSlide />
         <Footer />
       </div>
