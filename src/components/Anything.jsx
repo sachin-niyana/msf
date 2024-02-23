@@ -25,9 +25,9 @@ const Anything = () => {
     e.preventDefault();
 
     // Replace with your actual Email.js credentials
-    const serviceID = "your_emailjs_service_id";
-    const templateID = "your_emailjs_template_id";
-    const userID = "your_emailjs_user_id";
+    const serviceID = "service_za4va8f";
+    const templateID = "template_1tzdvgw";
+    const userID = "LW2Wm7Cttqkugc2Tf";
 
     emailjs
       .send(serviceID, templateID, formData, userID)
